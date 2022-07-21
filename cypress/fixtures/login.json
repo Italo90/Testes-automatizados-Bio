@@ -1,0 +1,12 @@
+{
+     "user": {
+        "email": "ilima@bionexo.com",
+        "senha": "Bio@1234"
+      },
+
+      "invaliduser": {
+        "email": "ilima@bionexo.com",
+        "senha": "Bio@12"
+      }
+}
+
