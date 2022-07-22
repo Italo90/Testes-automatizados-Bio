@@ -17,7 +17,7 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           install-command: yarn install
-          wait-on: ${{ secrets.BASE_URL }}
+          wait-on: 'https://bioid.qa.cloud.bionexo.com.br/users/sign_in'
           wait-on-timeout: 120
           browser: chrome
           record: true
