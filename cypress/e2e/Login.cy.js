@@ -17,25 +17,12 @@ describe('Login', function(){
     })
   })
 
-  it.only('Pagina inicial deve estar online',() => {
-      login.go()
-  })
-
   it('Usuário Logando corretamente',() => {
 
     login.signin(this.login.user)
     login.submit()
 
     login.expectedmsg()
-
-  })
-
-  it('Usuário invalido logando',() => {
-
-    login.signinvalid(this.login.invaliduser)
-    login.submit()
-
-    login.msginvalid()
 
   })
 })
